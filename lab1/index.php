@@ -37,7 +37,7 @@
            var y = Number(document.forms["myForm"]["ChY"].value).toFixed(3);
            var x = document.forms["myForm"]["ChX"].value;
 
-           if(y <= -5 | y >= 5){
+           if(y <= -5 || y >= 5){
            		alert("Вы вышли за диапазон Y");
            		return false;
            }
