@@ -161,7 +161,7 @@
 
                
                 <div>
-                    <input type="submit" value="Проверить">
+                    <input input onclick="return validate()" type="submit" value="Проверить">
                     <input type="reset" value="Очистить">
                 </div>
             </form>
